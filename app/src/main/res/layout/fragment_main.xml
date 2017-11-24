@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--This is view-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f7e700"
+        android:text="PANU"
+        android:textSize="@dimen/h1" />
+
+    <View
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_margin="10dp"
+        android:background="#ff0303" />
+
+
+</LinearLayout>
